@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <!-- First Slider -->
+        <div class="sliders slider-1">
+          <div class="overlay"></div>
+          <img src="images/1.jpg" alt="burgers" class="img-1" />
+          <div class="cart cart-1">
+            <h1>Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="view-more-btn">View more</button>
+          </div>
+        </div>
+        <!-- Second Slider -->
+        <div class="sliders slider-2">
+          <img src="images/2.jpg" alt="french Fries" class="img-2" />
+          <div class="cart cart-2">
+            <h1>Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="view-more-btn">View more</button>
+          </div>
+        </div>
+        <!-- Third Slider -->
+        <div class="sliders slider-3">
+          <img src="images/3.jpg" alt="shawarma" class="img-3" />
+          <div class="cart cart-3">
+            <h1>Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="view-more-btn">View more</button>
+          </div>
+        </div>
+        <!-- Fourth Slider -->
+        <div class="sliders slider-4">
+          <img src="images/4.jpg" alt="Nuggets" class="img-4" />
+          <div class="cart cart-4">
+            <h1>Title</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <button class="view-more-btn">View more</button>
+          </div>
+        </div>
+        <div class="nav">
+          <!-- Toggle button -->
+          <div class="toggle-btn">
+            <div class="icon toggle-left">&#8249;</div>
+            <div class="left-sidebar" id="l-sidebar">
+              <div class="icon toggle-right" style="display: none">&#8250;</div>
+            </div>
+          </div>
+          <!-- Logo -->
+           <h1 class="logo" data-text="Logo">Logo</h1>
+          <!-- Navigation bar -->
+          <ul class="navbar" id="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Cusine</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <button id="hamburger" class="hamburger">&#9776;</button>
+          <div class="right-sidebar" id="sidebar">
+            <button id="close" class="close">&times;</button>
+            <ul class="menu-list">
+              <li>Fries</li>
+              <li>Nuggets</li>
+              <li>Chicken burgers</li>
+              <li>Beef burgers</li>
+              <li>Fish burgers</li>
+              <li>Pizza</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
